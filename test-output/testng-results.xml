@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-02T16:44:57 IST" name="Suite" finished-at="2023-01-02T16:46:49 IST" duration-ms="111790">
+    <groups>
+    </groups>
+    <test started-at="2023-01-02T16:44:57 IST" name="Test" finished-at="2023-01-02T16:46:49 IST" duration-ms="111790">
+      <class name="TestClass.VerifyUserCanSearchTheProduct">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:09 IST" name="beforeClass" finished-at="2023-01-02T16:46:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="searchProducts()[pri:1, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:09 IST" name="searchProducts" finished-at="2023-01-02T16:46:15 IST" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProducts -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:09 IST" name="beforeMethod" finished-at="2023-01-02T16:46:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:15 IST" name="afterMethod" finished-at="2023-01-02T16:46:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProducts status=SUCCESS method=VerifyUserCanSearchTheProduct.searchProducts()[pri:1, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:15 IST" name="beforeMethod" finished-at="2023-01-02T16:46:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getProductPriceOfEachPage()[pri:2, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:15 IST" name="getProductPriceOfEachPage" finished-at="2023-01-02T16:46:49 IST" duration-ms="34541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductPriceOfEachPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:49 IST" name="afterMethod" finished-at="2023-01-02T16:46:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getProductPriceOfEachPage status=SUCCESS method=VerifyUserCanSearchTheProduct.getProductPriceOfEachPage()[pri:2, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClass.VerifyUserCanSearchTheProduct@609e8838]" started-at="2023-01-02T16:46:49 IST" name="afterClass" finished-at="2023-01-02T16:46:49 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClass.VerifyUserCanSearchTheProduct -->
+      <class name="TestClass.VerifyUserCanLogin">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClass.VerifyUserCanLogin@7c37508a]" started-at="2023-01-02T16:44:57 IST" name="beforeClass" finished-at="2023-01-02T16:45:54 IST" duration-ms="56055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.VerifyUserCanLogin@7c37508a]" started-at="2023-01-02T16:45:54 IST" name="beforeMethod" finished-at="2023-01-02T16:45:54 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLOgin()[pri:1, instance:TestClass.VerifyUserCanLogin@7c37508a]" started-at="2023-01-02T16:45:54 IST" name="VerifyUserCanLOgin" finished-at="2023-01-02T16:46:09 IST" duration-ms="15240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLOgin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.VerifyUserCanLogin@7c37508a]" started-at="2023-01-02T16:46:09 IST" name="afterMethod" finished-at="2023-01-02T16:46:09 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLOgin status=SUCCESS method=VerifyUserCanLogin.VerifyUserCanLOgin()[pri:1, instance:TestClass.VerifyUserCanLogin@7c37508a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClass.VerifyUserCanLogin@7c37508a]" started-at="2023-01-02T16:46:09 IST" name="afterClass" finished-at="2023-01-02T16:46:09 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClass.VerifyUserCanLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
